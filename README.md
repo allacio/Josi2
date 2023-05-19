@@ -18,7 +18,7 @@
 <div class="rectangle">   <h1 id="title">Sobre a Barbearia Josi</h1></div>
 
 
-<img id="Barbeariabanner" src="Barbeariabanner.jpg">
+<img id="Barbeariabanner" src="banner.jpg">
 
  
 
@@ -30,51 +30,65 @@
 
 <P id="poweredBY"> <strong> By: José Inácio, Heloisa.</strong></P>
 
+<p>benefícios</p>
+<div class="quadrado"> <h1 id="penis">test</p></div>
 </body>
 
 </html>
 
-</DOCTYPE> 
+</DOCTYPE>  
 
 
 
 body {
- background: linear-gradient(to right, #bb8829 33%, #b98525 85% )
-}
+    background: linear-gradient(to right, #bb8829 33%, #b98525 85% )
+   }
+   
+   
+   p {
+       text-align: center;
+   }
+   
+   em strong {
+       color: red;
+   }
+   
+   
+   #missao {
+       font-size: 20px;
+   }
+   h1 {
+       color: #ffffff;
+   }
+   #Barbeariabanner {
+       width: 100%;
+       border-radius: #755923
+       ;
+   }
+   #poweredBY {
+       text-align: right;
+       font-size: 20px;
+       
+   }
+   
+   .rectangle {
+       height: 50px;
+       width: 100%;
+       background-color: #555;
+   }
+   #title {
+       text-align: center;
+   
+   }
 
-
-p {
-    text-align: center;
-}
-
-em strong {
-    color: red;
-}
-
-
-#missao {
-    font-size: 20px;
-}
-h1 {
-    color: #ffffff;
-}
-#Barbeariabanner {
-    width: 100%;
-    border-radius: #755923
-    ;
-}
-#poweredBY {
-    text-align: right;
-    font-size: 20px;
-    
-}
-
-.rectangle {
-    height: 50px;
+   .quadrado {
+    height: 40px;
     width: 100%;
     background-color: #555;
-}
-#title {
+    
+   }
+
+   #penis {
     text-align: center;
 
-}
+   }
